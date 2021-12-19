@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+				<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>imagens dinamicas</title>
+	
+	<style>
+		body{
+			background-color: black;
+		}
+		h1{
+			color: white;
+		}
+	</style>
+	
+</head>
+
+<body>
+		<picture>
+			
+			<source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+			
+			<source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+			
+			<img src="imagens/imagem-g.png" alt="imagem flexivel">
+	</picture>
+	
+	<h1>Reproduzindo audio</h1>
+	<audio src="midia/Muriel%20-%20Bobby%20Richards.mp3" controls></audio>
+	
+	<h1>Reproduzindo vídeo</h1>	
+	<video width="500" src="dragon%20ball%20super%20edits(%20The%20search).mp4" controls type="video/mp4"></video>
+	
+</body>
+</html>
